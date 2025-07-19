@@ -1,0 +1,39 @@
+.container_projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container_projects .card_project {
+  padding: 20px;
+  background: var(--color-bg-variant);
+  border-radius: 12px;
+  border: 1 solid transparent;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s,
+    background 0.4s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: relative;
+  z-index: 1;
+}
+
+.container_projects .card_project:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+  background: var(--color-bg);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.container_projects .card_project .image img {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.container_projects .card_project h3 {
+  margin: 20px 0;
+}
+
+.container_projects .card_project .btns-projects .btn {
+  margin-left: 10px;
+}
