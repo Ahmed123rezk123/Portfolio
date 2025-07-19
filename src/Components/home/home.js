@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./home.css";
 import MyImage from "../../assets/myImage.jpg";
-import CV from "../../assets/Ahmed-Atef-FlowCV-Resume-20240918.pdf";
+import CV from "../../assets/AhmedAtef-CV.pdf";
 import HomeSocail from "./homeSocail/homeSocail";
 
 // Typewriter component for animated name
